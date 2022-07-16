@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import selectExpenses from '../../selectors/expenses'
 import AppleUsedListItem from './AppleUsedListItem'
+import monitors from '../../monitorsData'
 
 
 
@@ -14,8 +15,8 @@ export const AppleList = (props) => (
                         <span>No products</span>
                     </div>
                 ) : (
-                    props.expenses.map((expense) => {
-                        return <AppleUsedListItem key={expense.id} {...expense} />
+                   monitors.map((item) => {
+                        return <AppleUsedListItem key={item.id} {...item} />
                     })
                 )
             }

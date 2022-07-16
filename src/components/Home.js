@@ -52,7 +52,6 @@ function Home() {
         </Route>
         <Route path="/home/monitors">
         <Monitors/>
-        <MonitorList />
         </Route>
         <Route path="/home/gaming">
           <Gaming />

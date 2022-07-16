@@ -1,27 +1,51 @@
-export  const monitors = {
-    monitorsData:[
+export const monitors = {
+    monitors: [
         {
-            id:'1',
+            id: '1',
             Brand: 'SAMSUNG',
-            name: 'CHARGER 2021'
+            model: 'CHARGER 2021',
+            hz: 'CHARGER 2021',
+            curvature: 'CHARGER 2021',
+            r_time: 'CHARGER 2021',
+            type: 'CHARGER 2021',
+            price: 'CHARGER 2021',
+            note: 'CHARGER 2021',
         },
         {
-            id:'2',
-            img:img2,
-            name: 'OPAMA 2021'
+            id: '1',
+            Brand: 'SAMSUNG',
+            model: 'CHARGER 2021',
+            hz: 'CHARGER 2021',
+            curvature: 'CHARGER 2021',
+            r_time: 'CHARGER 2021',
+            type: 'CHARGER 2021',
+            price: 'CHARGER 2021',
+            note: 'CHARGER 2021',
         },
         {
-            id:'3',
-            img:img3,
-            name: 'opama 2022'
+            id: '1',
+            Brand: 'SAMSUNG',
+            model: 'CHARGER 2021',
+            hz: 'CHARGER 2021',
+            curvature: 'CHARGER 2021',
+            r_time: 'CHARGER 2021',
+            type: 'CHARGER 2021',
+            price: 'CHARGER 2021',
+            note: 'CHARGER 2021',
         },
         {
-            id:'4',
-            img:charger,
-            name: 'CHARGER 2021'
+            id: '1',
+            Brand: 'SAMSUNG',
+            model: 'CHARGER 2021',
+            hz: 'CHARGER 2021',
+            curvature: 'CHARGER 2021',
+            r_time: 'CHARGER 2021',
+            type: 'CHARGER 2021',
+            price: 'CHARGER 2021',
+            note: 'CHARGER 2021',
         },
-   
+
     ]
 }
 
-export default data;
+export default monitors;

@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import search from '../images/search.png'
 import createHistory from 'history/createBrowserHistory';
 import { setTextFilter, setKindFilter, sortByAmount, sortByDate, setEndDate, setStartDate } from '../actions/filters';
+import monitors from '../monitorsData'
 
 export class Monitors extends React.Component {
     state = {
@@ -104,9 +105,43 @@ export class Monitors extends React.Component {
                         <div class="table-cell last-cell">
                             <p>Type</p>
                         </div>
-
                     </div>
                 </div>
+
+                {
+          monitors.map((item, index) => {
+            return       <div class="table-row">
+            <div class="table-cell brand first-cell">
+              <p>xcvcxvcx</p>
+            </div>
+            <div class="table-cell">
+              <p>xcvcv</p>
+            </div>
+            <div class="table-cell last-cell">
+              <a href="https://youtu.be/99vHH_6F0Ko">vvccxvx</a>
+            </div>
+            <div class="table-cell last-cell">
+              <a className='hz' href="https://youtu.be/99vHH_6F0Ko">cxvcxv</a>
+            </div>
+            <div class="table-cell last-cell">
+              <a href="https://youtu.be/99vHH_6F0Ko">vxcvx</a>
+            </div>
+            <div class="table-cell last-cell">
+              <a href="https://youtu.be/99vHH_6F0Ko">vxcvcx</a>
+            </div>
+            <div class="table-cell last-cell">
+              <a href="https://youtu.be/99vHH_6F0Ko">vcxvcx</a>
+            </div>
+            <div class="table-cell last-cell">
+              <a className='price' href="https://youtu.be/99vHH_6F0Ko">545</a>
+            </div>
+            <div class="table-cell last-cell">
+              <a href="https://youtu.be/99vHH_6F0Ko">fgfdgd</a>
+            </div>
+          </div>
+          
+          })
+        }
             </div>
         )
     }
